@@ -34,21 +34,21 @@
         <div class="container" data-ng-controller="proxytableCtrl">
             <div class="row" style="text-align: center">
                 <hr>
-                <h2 style="color: black" class="h2">{{title}}</h2><a href="https://github.com/Chigozieworldwide/Chigozieworldwide.github.io">View on Github</a>
-                <h4 style="color: blue" ng-show="title==='Proxies'">Last Updated on {{lastUpdated | date}}</h4>
+                <h2 style="color: green" class="h2">{{title}}</h2><a href="https://github.com/Chigozieworldwide/Chigozieworldwide.github.io">View on Github</a>
+                <h4 style="color: grey" ng-show="title==='Proxies'">Last Updated on {{lastUpdated | date}}</h4>
                 <hr>
             </div>
             <div class="row" style="text-align: center">
-                <button class="btn btn-primary" onclick="window.open('/Chigozieworldwide.github.io/proxies.json')">Download as JSON</button>
-                <button class="btn btn-primary" onclick="window.open('/Chigozieworldwide.github.io/proxies.csv')">Download as CSV</button>
-                <button class="btn btn-primary" onclick="window.open('/https://github.com/Chigozieworldwide/Chigozieworldwide.github.io/proxies.txt')">Download as Text</button>
+                <button class="btn btn-primary" onclick="window.open('/proxy-list/proxies.json')">Download as JSON</button>
+                <button class="btn btn-primary" onclick="window.open('/proxy-list/proxies.csv')">Download as CSV</button>
+                <button class="btn btn-primary" onclick="window.open('/proxy-list/proxies.txt')">Download as Text</button>
                 <hr>
             </div>
-            <div class="row" ng-show="title==='PROXIES'">
+            <div class="row" ng-show="title==='Proxies'">
                 <div class="table-responsive">
                     <table class="table table-hover" style="text-align: center">
                         <thead>
-                            <tr style="background-color: #697c81;color: red">
+                            <tr style="background-color: #697c81;color: green">
                                 <td>#</td>
                                 <td>IP</td>
                                 <td>Port</td>
@@ -83,4 +83,3 @@
 </body>
 
 </html>
-
