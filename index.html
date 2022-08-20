@@ -4,7 +4,7 @@
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.min.js'></script>
     <script>
-        var app = angular.module('proxyscraper', []);
+        var app = angular.module('proxylist', []);
 
         app.controller('proxytableCtrl', function($scope, $http) {
 
@@ -30,18 +30,18 @@
 </head>
 
 <body>
-    <div ng-app="proxyscraper">
+    <div ng-app="proxylist">
         <div class="container" data-ng-controller="proxytableCtrl">
             <div class="row" style="text-align: center">
                 <hr>
-                <h2 style="color: red" class="h2">{{title}}</h2><a href="https://github.com/Chigozieworldwide/PROXY-List">View on Github</a>
+                <h2 style="color: red" class="h2">{{title}}</h2><a href="https://github.com/Chigozieworldwide/proxy-list">View on Github</a>
                 <h4 style="color: grey" ng-show="title==='Proxies'">Last Updated on {{lastUpdated | date}}</h4>
                 <hr>
             </div>
             <div class="row" style="text-align: center">
-                <button class="btn btn-primary" onclick="window.open('/proxy-scraper/proxies.json')">Download as JSON</button>
-                <button class="btn btn-primary" onclick="window.open('/proxy-scraper/proxies.csv')">Download as CSV</button>
-                <button class="btn btn-primary" onclick="window.open('/proxy-scraper/proxies.txt')">Download as Text</button>
+                <button class="btn btn-primary" onclick="window.open('/proxy-list/proxies.json')">Download as JSON</button>
+                <button class="btn btn-primary" onclick="window.open('/proxy-list/proxies.csv')">Download as CSV</button>
+                <button class="btn btn-primary" onclick="window.open('/proxy-list/proxies.txt')">Download as Text</button>
                 <hr>
             </div>
             <div class="row" ng-show="title==='Proxies'">
