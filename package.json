@@ -1,5 +1,5 @@
 {
-  "name": "proxy-list",
+  "name": "astro-proxy",
   "version": "1.0.0",
   "description": "JSON",
   "main": "conf.js",
@@ -13,13 +13,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Chigozieworldwide/proxy-list.git"
+    "url": "git+https://github.com/Chigozieworldwide/astro-proxy.git"
   },
   "keywords": [],
   "author": "Chigozieworldwide",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Chigozieworldwide/proxy-list/issues"
+    "url": "https://github.com/Chigozieworldwide/astro-proxy/issues"
   },
-  "homepage": "https://github.com/Chigozieworldwide/proxy-list#readme"
+  "homepage": "https://github.com/Chigozieworldwide/astro-proxy#readme"
 }
