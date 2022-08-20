@@ -23,7 +23,7 @@
                         });
                     }
                 });
-                $scope.title = "ACTIVE PROXIES";
+                $scope.title = "Proxies";
             })
         });
     </script>
@@ -34,14 +34,14 @@
         <div class="container" data-ng-controller="proxytableCtrl">
             <div class="row" style="text-align: center">
                 <hr>
-                <h2 style="color: green" class="h2">{{title}}</h2><a href="https://github.com/Chigozieworldwide/Chigozieworldwide.github.io">View on Github</a>
+                <h2 style="color: green" class="h2">{{title}}</h2><a href="https://github.com/Chigozieworldwide/proxy-list">View on Github</a>
                 <h4 style="color: grey" ng-show="title==='Proxies'">Last Updated on {{lastUpdated | date}}</h4>
                 <hr>
             </div>
             <div class="row" style="text-align: center">
-                <button class="btn btn-primary" onclick="window.open('/proxies.json')">Download as JSON</button>
-                <button class="btn btn-primary" onclick="window.open('/proxies.csv')">Download as CSV</button>
-                <button class="btn btn-primary" onclick="window.open('/proxies.txt')">Download as Text</button>
+                <button class="btn btn-primary" onclick="window.open('/proxy-list/proxies.json')">Download as JSON</button>
+                <button class="btn btn-primary" onclick="window.open('/proxy-list/proxies.csv')">Download as CSV</button>
+                <button class="btn btn-primary" onclick="window.open('/proxy-list/proxies.txt')">Download as Text</button>
                 <hr>
             </div>
             <div class="row" ng-show="title==='Proxies'">
