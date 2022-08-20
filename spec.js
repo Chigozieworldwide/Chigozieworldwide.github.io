@@ -4,7 +4,7 @@ var https = require("https");
 var config = require('./config');
 var { getName } = require('country-list');
 
-describe('proxies', function() {
+describe('Scrapers', function() {
 
     jasmine.DEFAULT_TIMEOUT_INTERVAL = 600000; //10 min timeout
 
@@ -83,8 +83,6 @@ describe('proxies', function() {
         loadPage();
 
     });
-    
-    
 
     it('US-proxy.org Scraper', function() {
         console.log('Running...   US-proxy.org');
