@@ -1,4 +1,4 @@
-# 🎉 A Proxy list Updated three times a day 🎉
+# 🎉 A Proxy list Updated every 3 hours  🎉
 
 ## Quick Access Data
 
