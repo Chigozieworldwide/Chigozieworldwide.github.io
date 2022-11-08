@@ -1,19 +1,19 @@
-# 🎉 A Proxy list Updated three times a day 🎉
+# 🎉 A Proxy list Updated every 3 hours  🎉
 
 ## Quick Access Data
 
 JSON
 
-    curl "https://chigozieworldwide.github.io/proxy-list/proxies.json" > proxies.json
+    curl "https://chigozieworldwide.github.io/proxies.json" > proxies.json
 
 CSV
 
-    curl "https://Chigozieworldwide.github.io/proxy-list/proxies.csv" > proxies.csv
+    curl "https://Chigozieworldwide.github.io/proxies.csv" > proxies.csv
 
 Text
 
 
-    curl "https://Chigozieworldwide.github.io/proxy-list/proxies.txt" > proxies.txt
+    curl "https://Chigozieworldwide.github.io/proxies.txt" > proxies.txt
 
 
 ## Setup Requirements
